@@ -2,7 +2,7 @@
 FROM centos:7
 	 
 # Setting up the working dir
-WORKDIR /app
+# WORKDIR /app
 	 
 # Running the command
 RUN sudo yum install -y httpd
