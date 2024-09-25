@@ -2,7 +2,7 @@
 FROM centos:7
 	 
 # Running the command
-RUN sudo yum install httpd
+RUN yum install httpd
 	 
 # Copying content to required directory
 COPY . /var/www/html/
