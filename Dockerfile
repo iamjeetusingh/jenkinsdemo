@@ -1,5 +1,5 @@
 # Fetching the image
-FROM centos:9
+FROM centos:7
 	 
 # Running the command
 RUN sudo yum install -y httpd
