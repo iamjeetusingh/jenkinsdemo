@@ -2,7 +2,8 @@
 FROM ubuntu:latest
 
 # Install necessary packages (Nginx)
-RUN apt-get update && apt-get install -y apache2
+RUN apt-get update 
+RUN apt-get install apache2
 
 # Copy the index.html file to the default Nginx location
 COPY index.html /var/www/html/
