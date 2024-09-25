@@ -1,8 +1,5 @@
 # Fetching the image
-FROM centos:7
-	 
-# Setting up the working dir
-# WORKDIR /app
+FROM centos:9
 	 
 # Running the command
 RUN sudo yum install -y httpd
