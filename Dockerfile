@@ -5,7 +5,7 @@ FROM centos:7
 WORKDIR /app
 	 
 # Running the command
-RUN yum install -y httpd
+RUN sudo yum install -y httpd
 	 
 # Copying content to required directory
 COPY . /var/www/html/
