@@ -21,4 +21,4 @@ RUN service apache2 start
 
 # Start apache2 in the foreground (keep container running)
 CMD ["apachectl", "-D", "FOREGROUND"]
-ENTRYPOINT service apache2 start && bash
+# ENTRYPOINT service apache2 start && bash
